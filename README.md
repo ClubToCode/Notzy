@@ -39,7 +39,15 @@ _**A simple Project to learn Web Development and GitHub workflow ✅**_
     -   Run The Project.
     
     Use Live server
-
+1.  #### Change new branch
+      - first create a new branch
+        ```
+        git branch myname
+        ```
+      - Then open the branch
+        ```
+        git checkout myname
+        ```
 1.  #### Make your changes 🔥🔥✅
 1.  #### Submit a pull request
     -   Before making any PR please create an Issue [~ Our Repo](https://github.com/ClubToCode/Learner-Project-Todo-app/issues)  ![Issue](https://github.com/ojasaklechayt/Reslink-Dashboard/assets/92150685/fef9d2f0-d85d-4ad6-a4fd-1136157330a5) 
