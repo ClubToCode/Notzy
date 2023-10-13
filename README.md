@@ -12,7 +12,7 @@ _**A simple Project to learn Web Development and GitHub workflow ✅**_
 ## How to Contribute :-
 
 > [!IMPORTANT]
-> We would love for you to be part of our project, But make sure you have first checked the [CONTRIBUTION GUIDELINES](CONTRIBUTING.md) 🔥
+> We would love for you to be part of our project, But make sure you have first checked the [CONTRIBUTION GUIDELINES](Learner-Project-Todo-app/blob/main/CONTRIBUTING.md) 🔥
 
 ### Running locally:-
 1. #### Fork the repository
