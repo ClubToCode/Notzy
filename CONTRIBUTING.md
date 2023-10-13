@@ -1,10 +1,10 @@
-# Contributing to [Reslink-Dashboard]()
+# Contributing to [Learner-Project-Todo-app]()
 
-Thank you for your interest in contributing to [Reslink-Dashboard]()! We welcome all types of contributions and appreciate your help in making this project better.
+Thank you for your interest in contributing to [Learner-Project-Todo-app]()! We welcome all types of contributions and appreciate your help in making this project better.
 
 ## How to Contribute
 
-To contribute to [Reslink-Dashboard](), please follow these steps:
+To contribute to [Learner-Project-Todo-app](), please follow these steps:
 
 1. #### Fork the repository
 
@@ -15,7 +15,7 @@ To contribute to [Reslink-Dashboard](), please follow these steps:
     Clone your forked repository to your local machine using the following command in your Git Bash terminal:
 
     ```
-    git clone git@github.com:your-username/Reslink-Dashboard.git
+    git clone git@github.com:your-username/Learner-Project-Todo-app.git
     ```
 
 3. #### Project Setup
@@ -26,23 +26,6 @@ To contribute to [Reslink-Dashboard](), please follow these steps:
    cd repo_name
 ```
 
--   Navigate to dashboard folder.
-
-```
-   cd dashboard
-```
-
--   Install Dependencies.
-
-```
-   npm i
-```
-
--   Run The Project.
-
-```
-   npm run dev
-```
 
 4.  #### Make your changes
 5.  #### Submit a pull request
@@ -68,7 +51,7 @@ If you want to improve the documentation, please follow these guidelines:
 
 ## Styleguides
 
-Please follow these styleguides when contributing to [Reslink-Dashboard]():
+Please follow these styleguides when contributing to [Learner-Project-Todo-app]():
 
 -   Use clear and concise language
 -   Follow the appropriate language-specific style guide, such as the [Google Style Guides](https://google.github.io/styleguide/), to maintain consistency in your code.
