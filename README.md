@@ -4,10 +4,10 @@ _**A simple Project to learn Web Development and GitHub workflow ✅**_
 > Only for Students of Mahakal Institute Of Technology & Management
 
 ## Prequisite -
-  - Basic knowledge of ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white), ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white), ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E), ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white), ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white), ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+  - Basic knowledge of ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white), ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white), ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E), ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white), ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
   - Resources :-
-    - Full stack web development basics [~ YOUTUBE](https://youtu.be/nu_pCVPKzTk?si=zhF_-Qx_EgXR2h5a)
-    - Git & Github [~ YOUTUBE](https://youtu.be/apGV9Kg7ics?si=giN676pRFocmUjhG) or [~ Our Repo](https://github.com/ClubToCode/Open-Source-Resources)
+    - Full stack web development basics [~ YOUTUBE-English](https://youtu.be/nu_pCVPKzTk?si=zhF_-Qx_EgXR2h5a) [~ YOUTUBE-Hindi](https://youtube.com/playlist?list=PLu71SKxNbfoC4nsN2NTFEHPCyvm_CnbDq&si=neOIkkGZSpPM_T4Y)
+    - Git & Github [~ YOUTUBE-English](https://youtu.be/apGV9Kg7ics?si=giN676pRFocmUjhG) [~ YOUTUBE-Hindi](https://youtu.be/uj4fy4kpaOA?si=OTM87y8CCFG6smBy) or [~ Our Repo](https://github.com/ClubToCode/Open-Source-Resources)
 
 ## How to Contribute :-
 
@@ -36,17 +36,9 @@ _**A simple Project to learn Web Development and GitHub workflow ✅**_
        cd Learner-Project-Todo-app
     ```
     
-    -   Install Dependencies.
-    
-    ```
-       npm i
-    ```
-    
     -   Run The Project.
     
-    ```
-       npm run dev
-    ```
+    Use Live server
 
 1.  #### Make your changes 🔥🔥✅
 1.  #### Submit a pull request
