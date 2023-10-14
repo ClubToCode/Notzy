@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+
+    <!-- Add the following line to link the Tailwind CSS stylesheet from the CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="h-screen bg-gray-200 flex items-center justify-center">
+      <div class="bg-white rounded p-6 shadow-lg w-96">
+        <h1 class="text-2xl text-center font-bold mb-4">Todo List</h1>
+
+        <!-- Task input -->
+        <div class="flex mb-4 space-x-3">
+          <input
+            type="text"
+            class="w-full border rounded-l py-2  px-4"
+            placeholder="Add a task"
+          />
+          <button class="bg-blue-500 text-white rounded-r px-4 py-2">
+            Add
+          </button>
+        </div>
+
+        <!-- Task list -->
+        <ul>
+          <li class="flex justify-between items-center p-2 border-b">
+            <span>Task 1</span>
+            <button class="text-red-500">Delete</button>
+          </li>
+          <li class="flex justify-between items-center p-2 border-b">
+            <span>Task 2</span>
+            <button class="text-red-500">Delete</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
