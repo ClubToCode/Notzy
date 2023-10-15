@@ -68,7 +68,7 @@ _**A simple Project to learn Web Development and GitHub workflow ✅**_
 
 > [!IMPORTANT]
 > # Hacktoberfest Guidelines
->  Are you a `hactoberfest` participant? You are welcome to contribute. [~learn more on Hactoberfest](https://hacktoberfest.com/) ![hactoberfest](https://github.com/ojasaklechayt/Reslink-Dashboard/assets/92150685/41e3634c-52b7-42bf-b4d5-876fc93c43ad)
+>  Are you a `hactoberfest` participant? You are welcome to contribute. [~learn more on Hactoberfest](https://github.com/ClubToCode/Hacktoberfest2023) ![hactoberfest](https://github.com/ojasaklechayt/Reslink-Dashboard/assets/92150685/41e3634c-52b7-42bf-b4d5-876fc93c43ad) 
 > - Before making any PR please create an issue, or check if the issue already exists.
 > - Tag your PRs with `#issuenumber` so that Its easy to understand your contribution.
 > - Try to make quality PRs. Checkout this resource - [Pull Request](https://www.pullrequest.com/blog/writing-a-great-pull-request-description/)
