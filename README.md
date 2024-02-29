@@ -1,4 +1,6 @@
-# Learn Web Development by Building project
+# Notzy
+A Todo & Notes app
+
 _**A simple Project to learn Web Development and GitHub workflow ✅**_
 > [!NOTE]
 > Only for Students of `Mahakal Institute Of Technology & Management`
