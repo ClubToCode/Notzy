@@ -1,10 +1,10 @@
-# Contributing to [Learner-Project-Todo-app]()
+# Contributing to [Notzy]()
 
-Thank you for your interest in contributing to [Learner-Project-Todo-app]()! We welcome all types of contributions and appreciate your help in making this project better.
+Thank you for your interest in contributing to [Notzy]()! We welcome all types of contributions and appreciate your help in making this project better.
 
 ## How to Contribute
 
-To contribute to [Learner-Project-Todo-app](), please follow these steps:
+To contribute to [Notzy project](), please follow these steps:
 
 1. #### Fork the repository
 
@@ -37,7 +37,7 @@ To contribute to [Learner-Project-Todo-app](), please follow these steps:
 
 If you are making your first code contribution, please follow these guidelines:
 
--   Make sure to read the README.md file to understand the project structure and requirements
+-   Make sure to read the [GOALS.md](https://github.com/ClubToCode/Notzy/blob/main/GOALS.md) file to understand the project structure and requirements
 -   Use clear and concise commit messages
 
 ## Improving the Documentation
