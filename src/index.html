@@ -1,32 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To-Do App</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="navbar">
-    <div class="logo">
-      <img src="./asset/Notzy.png" alt="Notzy">
-      <p>by ClubToCode MITM</p>
-      <img src="./asset/github.png" alt="github" id="git" height="80px">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <img src="./asset/Notzy.png" alt="Notzy" />
+        <p>by ClubToCode MITM</p>
+        <i class="fa-brands fa-github logo-github"></i>
+      </div>
+      <div id="nav">
+        <button><a href="//todo url">To-do</a></button>
+        <button><a href="//notes url">Notes</a></button>
+      </div>
     </div>
-    <div id="nav">
-      <button><a href="//todo url">To-do</a></button>
-      <button> <a href="//notes url">Notes</a></button>
+    <div class="todo-section">
+      <div class="input-container">
+        <input type="text" id="new-task" placeholder="Add a new task" />
+        <button id="add-task">
+          <i class="fa-sharp fa-solid fa-plus" style="font-size: 15px"></i>Add
+        </button>
+      </div>
+      <div>
+        <ul id="todo-list"></ul>
+      </div>
     </div>
-  </div>
-  <div class="todo-section">
-    <div class="input-container">
-        <input type="text" id="new-task" placeholder="Add a new task">
-        <button id="add-task">+Add</button>
-    </div>
-    <div>
-      <ul id="todo-list"></ul>
-    </div>
-  </div>
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
