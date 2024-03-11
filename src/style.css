@@ -9,13 +9,26 @@ body {
   align-items: center;
   height: fit-content;
   padding: 20px;
-  /* padding-bottom: 20px; */
+}
+
+.logo {
+  width: 100%;
+  padding: 10px;
+  border-bottom: 2px solid black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-github {
+  font-size: 80px;
+  margin: 0 20px;
 }
 
 #nav {
   width: fit-content;
   margin-top: 20px;
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,17 +61,7 @@ a:visited {
 #nav button:hover {
   border: 2px solid rgb(63, 178, 245);
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
-    rgba(0, 0, 0, 0.22) 0px 15px 12px; /* transition-duration: 0.2s; */
-}
-
-.logo {
-  width: 100%;
-  padding: 10px;
-  border-bottom: 2px solid black;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    rgba(0, 0, 0, 0.22) 0px 15px 12px; 
 }
 
 .todo-section {
@@ -92,15 +95,15 @@ a:visited {
 }
 
 #add-task {
-  padding: 5px 10px;
   border: none;
-  height: 30px;
+  height: 30px; 
   width: 60px;
   border-radius: 20px;
   background-color: #1679ee;
   color: white;
   cursor: pointer;
 }
+
 #add-task:hover {
   border: 2px solid rgb(63, 178, 245);
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
