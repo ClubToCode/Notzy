@@ -1,0 +1,109 @@
+.notes-section{
+    margin: 20px;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.notes-container{
+    z-index: 1;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 90%;
+    width: 70%;
+    border: 2px solid rgb(3, 91, 255);
+    box-shadow: 0 0 20px rgb(0, 195, 255);
+    border-radius: 5px;
+    overflow-y: scroll;
+}
+.notes-container::-webkit-scrollbar{
+    display: none;
+}
+.note-box{
+    margin: 17px;
+    padding: 6px;
+    width: 150px;
+    height: 140px;
+    border: 2px solid rgb(0, 196, 250);
+    border-radius: 15px;
+    background-color: rgb(218, 218, 218);
+    font-size: 16px;
+    overflow-y: hidden;
+    transition: all 0.3s linear;
+}
+.main-block{
+    height: 100%;
+    width: 100%;
+}
+.note-box h4{
+    margin: 3px;
+    padding: 0%;
+    letter-spacing: 1px;
+    color: blue;
+}
+.note-box p{
+    margin: 3px;
+    padding: 2px;
+}
+.add-note{
+    margin: 17px;
+    padding: 6px;
+    width: 150px;
+    height: 140px;
+    border: 2px solid rgb(0, 242, 255);
+    border-radius: 15px;
+    font-weight: 700;
+    background-color: rgb(0, 157, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.add-note i{
+    font-size: 30px;
+}
+.note-slide{
+    display: none;
+}
+.visi-slide{
+    padding: 15px;
+    position:absolute;
+    top: 25%;
+    left: 17%;
+    width: 67%;
+    height: 60%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 119, 255);
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgb(0, 204, 255);
+    opacity: 1;
+    z-index: 10;
+    transition: all 0.7s linear;
+}
+.slide-title{
+    display: flex;
+    justify-content: space-between;
+}
+#note-title{
+    appearance: none;
+    width: 80%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 22px;
+    font-weight: 550;
+    margin: 0%;
+}
+#note{
+    resize: none;
+    width: 100%;
+    height: 50vh;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 18px;
+    overflow-y: scroll;
+}

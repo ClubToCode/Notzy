@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App</title>
+    <script src="https://kit.fontawesome.com/fb9074960e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="notes.css" />
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="./asset/Notzy.png" alt="Notzy" />
+            <p>by ClubToCode MITM</p>
+            <i class="fa-brands fa-github logo-github"></i>
+        </div>
+        <div id="nav">
+            <button><a href="index.html">To-do</a></button>
+            <button><a href="#Note-URL">Notes</a></button>
+        </div>
+    </div>
+    <!--Notes section-->
+    <div class="notes-section">
+        <!--All Notes container or Box-->
+        <div class="notes-container">
+            <!--Note boxe-->
+            <div class="note-box">
+                <div class="main-block">
+                    <h4>Title</h4>
+                    <p class="title">i have to do someg after eating </p>
+                </div>
+
+                <!--Notes detail slide-->
+                <div class="note-slide">
+                    <div class="slide-title">
+                        <input type="text" id="note-title">
+                        <div class="title-opt">
+                            <i class="fa-solid fa-pen-to-square edit-note"></i>
+                            <i class="fa-solid fa-trash delet-note"></i>
+                            <i class="fa-solid fa-circle-xmark close-note"></i>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="slide-data">
+                        <textarea name="note" id="note" rows="5"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="add-note">
+                <i class="fa-sharp fa-solid fa-plus"></i>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <script src="notes.js"></script>
+</body>
+
+</html>
