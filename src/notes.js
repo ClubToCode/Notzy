@@ -37,6 +37,12 @@ function addNote() {
     </div>
     `;
     noteContainer.prepend(item);
+    item.querySelector('.note-slide').classList.add('visi-slide');
+    item.querySelector('.visi-slide').classList.remove('note-slide');
+    item.querySelector('#note-title').removeAttribute('readonly');
+    item.querySelector('#note').removeAttribute('readonly');
+    item.querySelector('#note-title').focus();
+    item.querySelector('.edit-note').classList.add("fa-floppy-disk");
     item.querySelector('.main-block').addEventListener('click',()=>{
         item.querySelector('.note-slide').classList.add('visi-slide');
         item.querySelector('.visi-slide').classList.remove('note-slide');
