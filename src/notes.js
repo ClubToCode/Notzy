@@ -13,7 +13,7 @@ function hide(item){
     console.log('hello');
 }
 function addNote() {
-    let a = 0;
+    let a = 1;
     const item = document.createElement("div")
     item.classList.add('note-box');
     item.innerHTML=`
